@@ -23,4 +23,4 @@ function countWays(n) {
   return combinations[n];
 }
 
-countWays(3);
+countWays(5);
