@@ -25,7 +25,7 @@ function magicFast(arr, start, end) {
   if (arr[mid] === mid) {
     return mid;
   } else if (arr[mid] > mid) {
-    return magicFast(arr, start, end - 1);
+    return magicFast(arr, start, mid - 1);
   } else {
     return magicFast(arr, mid + 1, end);
   }
